@@ -11,7 +11,16 @@ ul,
 nav,
 aside,
 main,
-article {
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+p {
     margin: 0px;
     padding: 0px;
 }
@@ -103,39 +112,81 @@ a {
 .ballina>main>form {
     width: 30%;
     height: 450px;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(235, 235, 235);
     border-radius: 12px;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ballina>main>form>figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ballina>main>form>figure>a>img {
+    height: 24px;
+}
+
+.ballina>main>form>.inputs>input {
+    background-color: #ddd;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+}
+
+.ballina>main>form>button {
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #aaa;
+    background-color: #aaa;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    transition: all 0.25s;
+}
+
+.ballina>main>form>button:hover {
+    background-color: #999;
+    border: 2px solid #888;
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 1024px) {
     .ballina {
         height: 1025px;
     }
-    /* .flex-column {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    } */
     .ballina>header {
         height: 120px;
         display: flex;
-        flex-flow: column;
+        flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
     }
-    .ballina>header>aside {
-        display: none;
+    .ballina>header>figure {
+        width: 50%;
+        order: 1;
     }
-    .ballina>header>figure+nav {
+    .ballina>header>aside {
+        width: 50%;
+        order: 2;
+    }
+    .ballina>header>nav {
         width: 100%;
+        order: 3;
     }
     .ballina>main {
+        height: 880px;
         display: flex;
         flex-flow: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 880px;
     }
     .ballina>main>form {
         width: 90%;
