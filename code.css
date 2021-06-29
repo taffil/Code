@@ -256,6 +256,9 @@ footer>section>p>a {
         width: 40%;
         order: 1;
     }
+    .ballina>header>figure>img {
+        height: 24px;
+    }
     .ballina>header>aside {
         width: 40%;
         order: 2;
@@ -274,9 +277,13 @@ footer>section>p>a {
     .ballina>main>form {
         width: 90%;
     }
+    .container {
+        background-color: white;
+        box-shadow: none;
+    }
     .container>span {
-        font-size: 24px;
-        font-weight: 400;
+        font-size: 28px;
+        font-weight: 600;
     }
     .container>section {
         width: 100%;
@@ -316,6 +323,9 @@ footer>section>p>a {
     footer>figure {
         width: 100%;
         text-align: center;
+    }
+    footer>figure>img {
+        height: 24px;
     }
     footer>nav>a,
     footer>section>p>a {
