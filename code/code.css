@@ -91,7 +91,7 @@ main>span {
     width: fit-content;
     font-size: 48px;
     font-weight: 600;
-    padding: 40px 0 40px 0;
+    padding-top: 40px;
 }
 
 main>section {

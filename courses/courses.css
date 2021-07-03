@@ -1,0 +1,15 @@
+header {
+    position: static;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main>section>article {
+    height: 300px;
+    width: 100%;
+    background-color: red;
+    margin: 20px 0 20px 0;
+}
