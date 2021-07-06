@@ -7,9 +7,52 @@ main {
     flex-direction: column;
 }
 
-main>section>article {
-    height: 300px;
+main>.quotes {
     width: 100%;
-    background-color: red;
-    margin: 20px 0 20px 0;
+    padding: 50px 0 50px 0;
 }
+
+main>.quotes>h2 {
+    color: #ccc;
+    font-weight: 300;
+    text-align: center;
+}
+
+main>.courses {
+    width: 100%;
+    height: fit-content;
+}
+
+main>.courses>.languages {
+    width: 100%;
+    height: 150vh;
+    padding: 75px 0 75px 0;
+    display: grid;
+    grid-template: repeat(7, 1fr) / repeat(1, 1fr);
+    /* grid-template-areas: "p p p j j j cs cs cs cp cp cp" "js js js js hc hc hc hc s s s s"; */
+}
+
+main>.courses>.languages>article {
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #1F2229;
+    display: flex;
+    flex-direction: column;
+}
+
+.python {}
+
+.java {}
+
+.csharp {}
+
+.cpp {}
+
+.sql {}
+
+.htmlcss {}
+
+.javascript {}
