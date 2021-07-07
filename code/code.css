@@ -1,224 +1,233 @@
-.ballina {
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("mohammad.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.ballina>section {
-    width: 50%;
-    height: 570px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    font-size: 1.5em;
-}
-
-.ballina>form {
-    width: 30%;
-    height: 450px;
-    background-color: rgb(235, 235, 235);
-    border-radius: 12px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.ballina>form>figure {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.ballina>form>figure>a>img {
-    height: 24px;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 0 0 1em 0 #555;
-}
-
-.ballina>form>figure>a>img:hover {
-    box-shadow: 0 0 1em 0 #000;
-}
-
-.ballina>form>.inputs>input {
-    background-color: #ddd;
-    border: none;
-    padding: 12px 15px;
-    margin: 8px 0;
-    width: 80%;
-}
-
-.ballina>form>button {
-    cursor: pointer;
-    color: white;
-    border-radius: 20px;
-    border: 2px solid #aaa;
-    background-color: #aaa;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    letter-spacing: 1px;
-    transition: all 0.25s;
-}
-
-.ballina>form>button:hover {
-    background-color: #888;
-    border: 2px solid #808080;
-}
-
-main {
-    color: #001;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-main>span {
-    width: fit-content;
-    font-size: 48px;
-    font-weight: 600;
-    padding-top: 40px;
-}
-
-main>section {
-    height: fit-content;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    padding: 75px 0 75px 0;
-}
-
-main>section>article {
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-main>section>hr {
-    margin: 0;
-}
-
-main>section>article>.text {
-    width: 50%;
-    font-weight: 600;
-    margin: 25px 50px;
-    line-height: 1.8;
-}
-
-main>section>article>figure {
-    text-align: center;
-    height: fit-content;
-    width: 50%;
-}
-
-main>section>article>.text>button {
-    cursor: pointer;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    background-color: #166088;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px 39px;
-    letter-spacing: 1px;
-    transition: all 0.25s;
-}
-
-main>section>article>.text>button:hover {
-    border: none;
-}
-
-main>section>article>.text>#pro-btn {
-    background-color: rgb(33, 187, 82);
-}
-
-main>section>article>.text>#pro-btn:hover {
-    background-color: rgb(18, 118, 49);
-}
-
-main>section>article>.text>#student-btn {
-    background-color: rgb(33, 187, 82);
-}
-
-main>section>article>.text>#student-btn:hover {
-    background-color: rgb(18, 118, 49);
-}
-
-@media (min-width: 280px) and (max-width: 768px) {
     .ballina {
-        height: 1200px;
-        display: flex;
-        flex-direction: column;
-    }
-    .ballina>section {
-        height: fit-content;
         width: 100%;
-        font-size: 1.5em;
-        text-align: center;
-    }
-    .ballina>form {
-        width: 90%;
-    }
-    main>:nth-child(1) {
-        font-size: 28px;
-        padding-bottom: 0;
-    }
-    main>:nth-child(2) {
-        padding-top: 0;
-    }
-    main>section {
-        width: 100%;
+        height: 700px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("mohammad.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
         align-items: center;
     }
-    main>section>article {
+    
+    .ballina>section {
+        width: 50%;
+        height: 570px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        font-size: 1.5em;
+    }
+    
+    .ballina>form {
+        width: 30%;
+        height: 450px;
+        background-color: rgb(235, 235, 235);
+        border-radius: 12px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .ballina>form>figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .ballina>form>figure>a>img {
+        height: 24px;
+        padding: 5px;
+        border-radius: 20px;
+        box-shadow: 0 0 1em 0 #555;
+    }
+    
+    .ballina>form>figure>a>img:hover {
+        box-shadow: 0 0 1em 0 #000;
+    }
+    
+    .ballina>form>.inputs>input {
+        background-color: #ddd;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 80%;
+    }
+    
+    .ballina>form>button {
+        cursor: pointer;
+        color: white;
+        border-radius: 20px;
+        border: 2px solid #aaa;
+        background-color: #aaa;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        transition: all 0.25s;
+    }
+    
+    .ballina>form>button:hover {
+        background-color: #888;
+        border: 2px solid #808080;
+    }
+    
+    main {
+        color: #001;
+        width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    main>section>hr {
-        margin: 30px 0 0 0;
+    
+    main>span {
+        width: fit-content;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 40px;
     }
-    main>section>article>.text {
-        width: 95%;
+    
+    main>section {
+        height: fit-content;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 75px 0 75px 0;
     }
-    main>section>article>.text>h3 {
-        margin: 25px 0;
-    }
-    main>section>article>figure {
+    
+    main>section>article {
+        height: fit-content;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        order: 2;
-    }
-    main>section>article>figure>#web {
-        width: 80px;
-    }
-    main>section>article>#github {
-        flex-direction: column;
         align-items: center;
     }
-    main>section>article>#github>img {
-        width: 35%;
-        margin: 10px;
+    
+    main>section>hr {
+        margin: 0;
     }
-}
+    
+    main>section>article>.text {
+        width: 50%;
+        font-weight: 600;
+        margin: 25px 50px;
+        line-height: 1.8;
+    }
+    
+    main>section>article>figure {
+        text-align: center;
+        height: fit-content;
+        width: 50%;
+    }
+    
+    main>section>article>.text>button {
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        background-color: #166088;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 39px;
+        letter-spacing: 1px;
+        transition: all 0.25s;
+    }
+    
+    main>section>article>.text>button:hover {
+        border: none;
+    }
+    
+    main>section>article>.text>#pro-btn {
+        background-color: rgb(33, 187, 82);
+    }
+    
+    main>section>article>.text>#pro-btn:hover {
+        background-color: rgb(18, 118, 49);
+    }
+    
+    main>section>article>.text>#student-btn {
+        background-color: rgb(33, 187, 82);
+    }
+    
+    main>section>article>.text>#student-btn:hover {
+        background-color: rgb(18, 118, 49);
+    }
+    
+    @media (max-width: 768px) {
+        .ballina {
+            height: 1200px;
+            display: flex;
+            flex-direction: column;
+        }
+        .ballina>section {
+            height: fit-content;
+            width: 100%;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .ballina>form {
+            width: 90%;
+        }
+        main>:nth-child(1) {
+            font-size: 28px;
+            padding-bottom: 0;
+        }
+        main>:nth-child(2) {
+            padding-top: 0;
+        }
+        main>section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main>section>article {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+        }
+        main>section>hr {
+            margin: 30px 0 0 0;
+        }
+        main>section>article>.text {
+            width: 95%;
+        }
+        main>section>article>.text>h3 {
+            margin: 25px 0;
+        }
+        main>section>article>figure {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            order: 2;
+        }
+        main>section>article>figure>#web {
+            width: 80px;
+        }
+        main>section>article>#github {
+            flex-direction: column;
+            align-items: center;
+        }
+        main>section>article>#github>img {
+            width: 35%;
+            margin: 10px;
+        }
+    }
+    
+    @media (max-width: 414px) {
+        main>section>article>#github {
+            display: none;
+        }
+        main>section>article>#pro {
+            display: none;
+        }
+    }

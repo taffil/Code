@@ -43,7 +43,8 @@ main>.courses>.languages>article {
     flex-direction: column;
 }
 
-.python {}
+
+/* .python {}
 
 .java {}
 
@@ -55,4 +56,4 @@ main>.courses>.languages>article {
 
 .htmlcss {}
 
-.javascript {}
+.javascript {} */
