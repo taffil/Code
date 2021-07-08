@@ -115,7 +115,7 @@ main>section>hr {
     margin: 0;
 }
 
-main>section>article>.text {
+.text {
     width: 50%;
     font-weight: 600;
     margin: 25px 50px;
@@ -128,7 +128,22 @@ main>section>article>figure {
     width: 50%;
 }
 
-main>section>article>.text>button {
+#pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pro>h2 {
+    background-color: purple;
+    color: white;
+    height: fit-content;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin: 0 0 0 10px;
+}
+
+.text>button {
     cursor: pointer;
     color: white;
     border-radius: 10px;
@@ -140,36 +155,28 @@ main>section>article>.text>button {
     transition: all 0.25s;
 }
 
-main>section>article>.text>button:hover {
+.text>button:hover {
     border: none;
 }
 
-main>section>article>.text>#pro-btn {
+#pro-btn,
+#student-btn {
     background-color: rgb(33, 187, 82);
 }
 
-main>section>article>.text>#pro-btn:hover {
-    background-color: rgb(18, 118, 49);
-}
-
-main>section>article>.text>#student-btn {
-    background-color: rgb(33, 187, 82);
-}
-
-main>section>article>.text>#student-btn:hover {
+#pro-btn:hover,
+#student-btn:hover {
     background-color: rgb(18, 118, 49);
 }
 
 @media (max-width: 768px) {
     .ballina {
         height: 1200px;
-        display: flex;
         flex-direction: column;
     }
     .ballina>section {
         height: fit-content;
         width: 100%;
-        font-size: 1.5em;
         text-align: center;
     }
     .ballina>form {
@@ -184,22 +191,18 @@ main>section>article>.text>#student-btn:hover {
     }
     main>section {
         width: 100%;
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
     main>section>article {
-        height: fit-content;
-        display: flex;
         flex-direction: column;
     }
     main>section>hr {
         margin: 30px 0 0 0;
     }
-    main>section>article>.text {
+    .text {
         width: 95%;
     }
-    main>section>article>.text>h3 {
+    .text>h3 {
         margin: 25px 0;
     }
     main>section>article>figure {
@@ -209,14 +212,17 @@ main>section>article>.text>#student-btn:hover {
         justify-content: space-evenly;
         order: 2;
     }
-    main>section>article>figure>#web {
+    #web {
         width: 80px;
     }
-    main>section>article>#github {
+    #pro {
+        margin: 10px;
+    }
+    #github {
         flex-direction: column;
         align-items: center;
     }
-    main>section>article>#github>img {
+    #github>img {
         width: 35%;
         margin: 10px;
     }

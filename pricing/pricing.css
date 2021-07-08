@@ -1,0 +1,63 @@
+header {
+    position: static;
+}
+
+main {
+    padding: 0 0 70px 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>span {
+    font-size: 64px;
+    font-weight: 600;
+    margin: 50px auto;
+    color: #001;
+}
+
+.plans {
+    width: 70%;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.plans>article {
+    width: 80%;
+    margin: auto;
+    border: 0.5px solid #ccc;
+    padding: 9%;
+    background-color: #efefef;
+}
+
+.plans>article>span {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.plans>article>p {
+    margin: 10px 0;
+}
+
+.plans>article>button {
+    padding: 6px 12px;
+    font-size: large;
+    border: none;
+    background-color: #001;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .plans {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    main>span {
+        font-size: 56px;
+    }
+}
