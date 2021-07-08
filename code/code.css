@@ -138,7 +138,7 @@ main>section>article>figure {
     background-color: purple;
     color: white;
     height: fit-content;
-    padding: 2px 6px;
+    padding: 0 6px;
     border-radius: 4px;
     margin: 0 0 0 10px;
 }
