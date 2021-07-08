@@ -100,7 +100,7 @@ footer>section>p>a {
     margin: 5px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px) {
     header {
         height: 120px;
         justify-content: space-evenly;
@@ -122,9 +122,12 @@ footer>section>p>a {
     }
     footer {
         height: 750px;
+        justify-content: space-between;
     }
     footer>nav {
         width: 40%;
+        width: fit-content;
+        margin: 0 30px;
     }
     footer>figure {
         width: 100%;
