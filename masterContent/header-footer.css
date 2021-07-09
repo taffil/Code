@@ -44,7 +44,6 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
 }
 
 header>figure {
@@ -164,12 +163,27 @@ footer>section>p>a {
     }
     header>.button {
         order: 2;
-        width: 20%;
-        height: 40%;
-        border: none;
-        border-radius: 5px;
-        color: white;
         background-color: #222;
+        border-radius: 5px;
+        padding: 6px 10px;
+    }
+    .hamburger-box {
+        width: 25px;
+        height: 15px;
+    }
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        width: 25px;
+        height: 1px;
+        background-color: #ccc;
+        margin-top: 0;
+    }
+    .hamburger-inner::before {
+        top: -7px;
+    }
+    .hamburger-inner::after {
+        bottom: -7px;
     }
     footer {
         height: 750px;

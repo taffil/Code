@@ -198,7 +198,4 @@ main>:last-child {
     .paths>article>.text>:nth-child(4) {
         display: none;
     }
-    .paths>article>figure {
-        display: none;
-    }
 }
