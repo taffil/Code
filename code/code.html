@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+    <link href="../masterContent/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="../masterContent/header-footer.css">
     <link rel="stylesheet" href="code.css">
 
@@ -34,12 +34,19 @@
             <a href="">Log in</a>
             <a href="">Sign up</a>
         </aside>
-        <button class="button hamburger hamburger--arrowalt" type="button">
+        <button onclick="myFunction()" class="button hamburger hamburger--arrowalt" type="button">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
             </span>
-          </button>
-
+        </button>
+        <div class="mobile" id="myDIV" style="display: none;">
+            <a href="code.html">Home</a>
+            <a href="../courses/courses.html">Courses</a>
+            <a href="../pricing/pricing.html">Pricing</a>
+            <a href="../explore/explore.html">Explore</a>
+            <a href="">Log in</a>
+            <a href="">Sign up</a>
+        </div>
     </header>
     <div class="ballina">
         <section>
@@ -180,16 +187,7 @@
     <script>
         AOS.init();
     </script>
-    <script>
-        // Look for .hamburger
-        var hamburger = document.querySelector(".hamburger");
-        // On click
-        hamburger.addEventListener("click", function() {
-            // Toggle class "is-active"
-            hamburger.classList.toggle("is-active");
-            // Do something else, like open/close menu
-        });
-    </script>
+    <script src="../masterContent/masterJS.js"></script>
 </body>
 
 </html>

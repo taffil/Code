@@ -88,6 +88,7 @@ main {
 }
 
 .paths {
+    /* height: fit-content; */
     background-color: rgb(232, 237, 237);
     padding: 40px 0 0 0;
     display: flex;
@@ -99,8 +100,7 @@ main {
 .paths>h2 {
     text-align: center;
     color: #001;
-    background-color: white;
-    padding: 50px 43.5%;
+    padding: 50px 0;
 }
 
 .paths>article {
@@ -194,6 +194,9 @@ main>:last-child {
     }
     .paths>article {
         padding: 30px 0;
+    }
+    .paths>article>figure {
+        display: none;
     }
     .paths>article>.text>:nth-child(4) {
         display: none;

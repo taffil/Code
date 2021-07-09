@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <link href="../masterContent/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../masterContent/header-footer.css">
     <link rel="stylesheet" href="about.css">
 </head>
@@ -30,7 +32,19 @@
             <a href="">Log in</a>
             <a href="">Sign up</a>
         </aside>
-        <button class="button">Menu</button>
+        <button onclick="myFunction()" class="button hamburger hamburger--arrowalt" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <div class="mobile" id="myDIV" style="display: none;">
+            <a href="../code/code.html">Home</a>
+            <a href="../courses/courses.html">Courses</a>
+            <a href="../pricing/pricing.html">Pricing</a>
+            <a href="explore.html">Explore</a>
+            <a href="">Log in</a>
+            <a href="">Sign up</a>
+        </div>
     </header>
     <main style="height: 100vh;"></main>
     <footer>
@@ -83,6 +97,8 @@
             <p><a style="margin: 0;" href="">Contact</a> | © 2021 Code, Inc</p>
         </section>
     </footer>
+    <script src="../masterContent/masterJS.js"></script>
+
 </body>
 
 </html>

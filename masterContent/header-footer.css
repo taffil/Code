@@ -161,6 +161,25 @@ footer>section>p>a {
     header>:nth-child(3) {
         display: none;
     }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 80%;
+        text-align: right;
+        margin-top: 100%;
+        padding: 10px;
+        background-color: #222;
+        border-radius: 5px;
+    }
+    .mobile>a {
+        border-bottom: 1px solid #ccc;
+        padding: 12px;
+        border-radius: 0;
+    }
+    .mobile>:last-child {
+        border: none;
+    }
     header>.button {
         order: 2;
         background-color: #222;
