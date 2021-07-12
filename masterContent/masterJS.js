@@ -1,18 +1,21 @@
-const hamburger = document.querySelector(".hamburger");
-// On click
-hamburger.addEventListener("click", function() {
+const button = document.querySelector("#button")
+const navbar = document.querySelector("#nav");
+const logbar = document.querySelector("#log");
+
+button.addEventListener("click", function() {
     // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // mobileNav.toggle()
+    navbar.classList.toggle("passive")
+    logbar.classList.toggle("passive")
+        // logbar.style.display = "flex"
 });
 
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "flex";
-        // x.classList.append(".felx-center-evenly")
-    } else {
-        x.style.display = "none";
-        // x.classList.remove(".felx-center-evenly")
-    }
-}
+// function myFunction() {
+//     var x = document.getElementById("button");
+//     if (navbar.style.display === "") {
+//         x.style.display = "flex";
+//         // x.classList.append(".felx-center-evenly")
+//     } else {
+//         x.style.display = "";
+//         // x.classList.remove(".felx-center-evenly")
+//     }
+// }

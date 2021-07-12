@@ -138,7 +138,7 @@ footer>section>p>a {
 }
 
 @media (min-width: 415px) {
-    header>.button {
+    header>button {
         display: none;
     }
 }
@@ -146,12 +146,12 @@ footer>section>p>a {
 @media (max-width: 414px) {
     header {
         height: fit-content;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     header>figure {
         order: 1;
-        width: 100%;
+        width: 40%;
         padding: 20px 0;
         justify-content: space-evenly;
     }
@@ -159,14 +159,27 @@ footer>section>p>a {
         height: 24px;
     }
     header>:nth-child(2) {
-        order: 2;
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    header>:nth-child(3) {
         order: 3;
         width: 100%;
         justify-content: space-evenly;
+        /* display: none; */
+    }
+    header>:nth-child(3) {
+        order: 4;
+        width: 100%;
+        justify-content: space-evenly;
+        /* display: none; */
+    }
+    header>button {
+        order: 2;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 2px;
+        background-color: #222;
+        color: white;
+    }
+    .passive {
+        display: none;
     }
     footer {
         height: 750px;
