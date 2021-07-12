@@ -162,13 +162,11 @@ footer>section>p>a {
         order: 3;
         width: 100%;
         justify-content: space-evenly;
-        /* display: none; */
     }
     header>:nth-child(3) {
         order: 4;
         width: 100%;
         justify-content: space-evenly;
-        /* display: none; */
     }
     header>button {
         order: 2;
