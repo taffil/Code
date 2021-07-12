@@ -145,21 +145,28 @@ footer>section>p>a {
 
 @media (max-width: 414px) {
     header {
-        height: 80px;
+        height: fit-content;
+        flex-direction: column;
         justify-content: space-evenly;
     }
     header>figure {
-        width: 40%;
         order: 1;
+        width: 100%;
+        padding: 20px 0;
+        justify-content: space-evenly;
     }
     header>figure>a>img {
         height: 24px;
     }
     header>:nth-child(2) {
-        display: none;
+        order: 2;
+        width: 100%;
+        justify-content: space-evenly;
     }
     header>:nth-child(3) {
-        display: none;
+        order: 3;
+        width: 100%;
+        justify-content: space-evenly;
     }
     footer {
         height: 750px;
