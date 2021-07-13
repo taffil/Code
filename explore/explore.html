@@ -14,7 +14,7 @@
     <link href="../masterContent/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../masterContent/header-footer.css">
-    <!-- <link rel="stylesheet" href="about.css"> -->
+    <link rel="stylesheet" href="explore.css">
 </head>
 
 <body>
@@ -36,7 +36,56 @@
             Menu
         </button>
     </header>
-    <main style="height: 100vh;"></main>
+    <main style="background-color: #131417;">
+        <h1>Articles</h1>
+        <section class="articles">
+            <article class="has">
+                <img src="has.png" alt="">
+                <h2>Meet `:has`, A Native CSS Parent Selector</h2>
+                <br>
+                <p>The reasons that are often cited that make container queries difficult or impossible is things like infinite loops—e.g. changing the width of an element, invalidating a container query, which changes the width again, which makes the container
+                    query take effect, …</p>
+            </article>
+            <article class="has">
+                <img src="svg.png" alt="">
+                <h2>SVG Favicons in Action</h2>
+                <br>
+                <p>Ever heard of favicons made with SVG? If you are a regular reader of CSS-Tricks, you probably have. But does your website actually use one? The task is more non-trivial than you might think. As we will see in this …</p>
+            </article>
+            <article class="where">
+                <img src="where.png" alt="">
+                <h2>Using the Specificity of :where() as a CSS Reset</h2>
+                <br>
+                <p>I don’t know about you, but I write these three declarations many times in my CSS: ul { padding: 0; margin: 0; list-style-type: none; } You might yell at me and say I can just put those in my CSS …</p>
+            </article>
+            <article class="conic">
+                <img src="conic.gif" alt="">
+                <h2>My Struggle to Use and Animate a Conic Gradient in SVG</h2>
+                <br>
+                <p>The wonderful company I work for, Payoneer, has a new logo, and my job was to recreate it and animate it for a loader component in our app. I’ll explain exactly how I did it, share the problems I …</p>
+            </article>
+            <article class="image-set">
+                <img src="image-set.png" alt="">
+                <h2>Using Performant Next-Gen Images in CSS with image-set</h2>
+                <br>
+                <p>The CSS image-set() function has been supported in Chromium-based browsers since 2012 and in Safari since version 6. Support recently landed in Firefox 88. Let’s dive in and see what we can and can’t do today with image-set().</p>
+            </article>
+            <article class="toggle">
+                <img src="toggle.gif" alt="">
+                <h2>Body Toggle</h2>
+                <br>
+                <p>I appreciate the clarity of this trick that Mikael Ainalem posted over on Reddit:…</p>
+            </article>
+        </section>
+        <h1>Cheatsheets</h1>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+    </main>
     <footer>
         <nav>
             <a href="../code/code.html">Home</a>
