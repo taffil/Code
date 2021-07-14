@@ -1,3 +1,5 @@
+AOS.init();
+
 const button = document.querySelector("#button")
 const navbar = document.querySelector("#nav");
 const logbar = document.querySelector("#log");
