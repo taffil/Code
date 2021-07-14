@@ -22,13 +22,13 @@
         <figure class="flex-center-evenly">
             <a href="../code/code.html"><img src="../masterContent/code-white-32.png" alt="CODE"></a>
         </figure>
-        <nav class="flex-center-evenly passives" id="nav">
+        <nav class="flex-center-evenly passive" id="nav">
             <a href="../code/code.html">Home</a>
             <a href="../courses/courses.html">Courses</a>
             <a href="../pricing/pricing.html">Pricing</a>
             <a href="explore.html">Explore</a>
         </nav>
-        <aside class="flex-center-evenly passives" id="log">
+        <aside class="flex-center-evenly passive" id="log">
             <a href="">Log in</a>
             <a href="">Sign up</a>
         </aside>
@@ -39,104 +39,128 @@
     <main style="background-color: #131417;">
         <h1>Articles</h1>
         <section class="articles">
-            <article class="has">
+            <article onclick="has()" class="has">
                 <img src="has.png" alt="">
                 <h2>Meet `:has`, A Native CSS Parent Selector</h2>
                 <br>
                 <p>The reasons that are often cited that make container queries difficult or impossible is things like infinite loops—e.g. changing the width of an element, invalidating a container query, which changes the width again, which makes the container
                     query take effect, …</p>
             </article>
-            <article class="has">
+            <article onclick="svg()" class="svg">
                 <img src="svg.png" alt="">
                 <h2>SVG Favicons in Action</h2>
                 <br>
                 <p>Ever heard of favicons made with SVG? If you are a regular reader of CSS-Tricks, you probably have. But does your website actually use one? The task is more non-trivial than you might think. As we will see in this …</p>
             </article>
-            <article class="where">
+            <article onclick="where()" class="where">
                 <img src="where.png" alt="">
                 <h2>Using the Specificity of :where() as a CSS Reset</h2>
                 <br>
                 <p>I don’t know about you, but I write these three declarations many times in my CSS: ul { padding: 0; margin: 0; list-style-type: none; } You might yell at me and say I can just put those in my CSS …</p>
             </article>
-            <article class="conic">
+            <article onclick="conic()" class="conic">
                 <img src="conic.gif" alt="">
                 <h2>My Struggle to Use and Animate a Conic Gradient in SVG</h2>
                 <br>
                 <p>The wonderful company I work for, Payoneer, has a new logo, and my job was to recreate it and animate it for a loader component in our app. I’ll explain exactly how I did it, share the problems I …</p>
             </article>
-            <article class="image-set">
+            <article onclick="imageSet()" class="image-set">
                 <img src="image-set.png" alt="">
                 <h2>Using Performant Next-Gen Images in CSS with image-set</h2>
                 <br>
                 <p>The CSS image-set() function has been supported in Chromium-based browsers since 2012 and in Safari since version 6. Support recently landed in Firefox 88. Let’s dive in and see what we can and can’t do today with image-set().</p>
             </article>
-            <article class="toggle">
+            <article onclick="toggle()" class="toggle">
                 <img src="toggle.gif" alt="">
                 <h2>Body Toggle</h2>
                 <br>
                 <p>I appreciate the clarity of this trick that Mikael Ainalem posted over on Reddit:…</p>
             </article>
         </section>
-        <h1>Cheatsheets</h1>
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+        <br>
+        <br>
+        <hr style="border: none; border-top: 2px dashed #555; width: 95%; margin: auto;">
+        <h1>Cheat Sheets</h1>
+        <section class="articles">
+            <article onclick=" py() " class="py ">
+                <img src="pycheatsheet.jpg " alt=" ">
+                <h2>Python</h2>
+            </article>
+            <article onclick="csharp() " class="csharp ">
+                <img src="csharpcheatsheet.jpg " alt=" ">
+                <h2>C#</h2>
+            </article>
+            <article onclick="htmlcss() " class="htmlcss ">
+                <img src="htmlcsscheatsheet.jpg " alt=" ">
+                <h2>HTML/CSS</h2>
+            </article>
+            <article onclick="react() " class="react ">
+                <img src="react1cheatsheet.jpg " alt=" ">
+                <h2>React</h2>
+            </article>
+            <article onclick="js() " class="js">
+                <img src="jscheatsheet.png" alt=" ">
+                <h2>JavaScript</h2>
+            </article>
+            <article onclick="java() " class="java ">
+                <img src="javacheatsheet.jpg " alt=" ">
+                <h2>Java</h2>
+            </article>
         </section>
+        <br>
+        <br>
     </main>
     <footer>
         <nav>
-            <a href="../code/code.html">Home</a>
-            <a href="../courses/courses.html">Courses</a>
-            <a href="explore.html">Explore</a>
-            <a href="">Web Development</a>
-            <a href="">Programming</a>
-            <a href="">Data Science</a>
-            <a href="">Log In</a>
-            <a href="">Sign Up</a>
+            <a href="../code/code.html ">Home</a>
+            <a href="../courses/courses.html ">Courses</a>
+            <a href="explore.html ">Explore</a>
+            <a href=" ">Web Development</a>
+            <a href=" ">Programming</a>
+            <a href=" ">Data Science</a>
+            <a href=" ">Log In</a>
+            <a href=" ">Sign Up</a>
         </nav>
         <nav>
             <h4>RESOURCES</h4>
-            <a href="">Cheatsheets</a>
-            <a href="">Articles</a>
+            <a href=" ">Cheatsheets</a>
+            <a href=" ">Articles</a>
             <br><br>
             <h4>FOLLOW</h4>
-            <a href="https://github.com/taffil" target="_blank">GitHub</a>
-            <a href="">CodePen</a>
-            <a href="">Stack Overflow</a>
-            <a href=""></a>
+            <a href="https://github.com/taffil " target="_blank ">GitHub</a>
+            <a href=" ">CodePen</a>
+            <a href=" ">Stack Overflow</a>
+            <a href=" "></a>
         </nav>
         <figure>
-            <img src="../masterContent/code-black-32.png" alt="CODE">
+            <img src="../masterContent/code-black-32.png " alt="CODE ">
         </figure>
         <nav>
             <h4>LANGUAGES</h4>
-            <a href="">HTML</a>
-            <a href="">CSS</a>
-            <a href="">JavaScript</a>
-            <a href="">Python</a>
-            <a href="">C++</a>
-            <a href="">C#</a>
-            <a href="">Java</a>
-            <a href="">SQL</a>
+            <a href=" ">HTML</a>
+            <a href=" ">CSS</a>
+            <a href=" ">JavaScript</a>
+            <a href=" ">Python</a>
+            <a href=" ">C++</a>
+            <a href=" ">C#</a>
+            <a href=" ">Java</a>
+            <a href=" ">SQL</a>
         </nav>
         <nav>
             <h4>MOBILE</h4>
-            <a style="margin: 4px;" href=""><img style="margin: 5px 0 5px 0; width: 52px;" src="../masterContent/appstore.png" alt=""></a>
-            <a style="margin: 4px;" href=""><img style="margin: 5px 0 5px 0; width: 52px;" src="../masterContent/playstore.png" alt=""></a>
+            <a style="margin: 4px; " href=" "><img style="margin: 5px 0 5px 0; width: 52px; " src="../masterContent/appstore.png " alt=" "></a>
+            <a style="margin: 4px; " href=" "><img style="margin: 5px 0 5px 0; width: 52px; " src="../masterContent/playstore.png " alt=" "></a>
             <br>
             <h4>PRICING PLANS</h4>
-            <a href="">PRO Membership</a>
-            <a href="">Student Pack</a>
+            <a href=" ">PRO Membership</a>
+            <a href=" ">Student Pack</a>
         </nav>
-        <hr style="margin: 0; width: 100%;">
-        <section style="width: 100%; text-align: right; margin-right: 20px;">
-            <p><a style="margin: 0;" href="">Contact</a> | © 2021 Code, Inc</p>
+        <hr style="margin: 0; width: 100%; ">
+        <section style="width: 100%; text-align: right; margin-right: 20px; ">
+            <p><a style="margin: 0; " href=" ">Contact</a> | © 2021 Code, Inc</p>
         </section>
     </footer>
-    <script src="../masterContent/masterJS.js"></script>
+    <script src="../masterContent/masterJS.js "></script>
 </body>
 
 </html>

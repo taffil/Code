@@ -16,6 +16,12 @@ main>.articles {
 .articles>article {
     background-color: #ddd;
     border-radius: 7px;
+    transition: 500ms;
+}
+
+.articles>article:hover {
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 .articles>article>h2,
@@ -25,6 +31,7 @@ main>.articles {
 
 .articles>article>p {
     color: #555;
+    line-height: 1.8;
 }
 
 .articles>article>h2 {

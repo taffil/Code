@@ -50,8 +50,13 @@ header>figure {
     width: 20%;
 }
 
+header>figure>a>img {
+    transition: 500ms;
+}
+
 header>figure>a>img:hover {
     filter: blur(1.5px);
+    transform: scale(1.025);
 }
 
 header>nav {
