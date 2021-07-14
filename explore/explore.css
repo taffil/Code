@@ -57,6 +57,6 @@ main>h1 {
 @media (max-width: 414px) {
     main>.articles {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 }
