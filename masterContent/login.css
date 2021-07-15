@@ -58,5 +58,7 @@ main>form>.login:hover {
 @media (max-width: 414px) {
     main>form {
         width: 100%;
+        padding: 0 0 20px 0;
+        margin: auto;
     }
 }
