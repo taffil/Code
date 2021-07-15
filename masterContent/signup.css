@@ -69,4 +69,10 @@ main>form>.signup:hover {
     main {
         flex-direction: column;
     }
+    main>section {
+        width: 100%;
+    }
+    main>form {
+        width: 100%;
+    }
 }
