@@ -180,6 +180,15 @@ footer>section>p>a {
         border-radius: 2px;
         background-color: #222;
         color: white;
+        width: 50px;
+    }
+    header>button>hr {
+        border: none;
+        border-top: 1px solid white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .passive {
         display: none;

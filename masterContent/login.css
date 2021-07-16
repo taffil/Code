@@ -61,4 +61,7 @@ main>form>.login:hover {
         padding: 0 0 20px 0;
         margin: auto;
     }
+    main>form>.inputs>input {
+        width: 80%;
+    }
 }
